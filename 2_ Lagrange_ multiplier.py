@@ -1,3 +1,4 @@
+#### method1
 import tensorflow as tf
 
 x1 = tf.Variable(tf.random_normal(shape=[1],mean=-0.1,stddev=0.01))
@@ -15,7 +16,7 @@ with tf.Session() as sess:
         print('step =%d,loss=%.8f,x1=%.8f'%(i,loss_show,xs))
 
 
-
+####method2
 from sympy import *
 
 x1 = Symbol("x1")
